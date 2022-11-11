@@ -89,11 +89,11 @@ const IncomeAreaChart = ({ slot }) => {
 
     const [series, setSeries] = useState([
         {
-            name: 'Page Views',
+            name: '방문자',
             data: [0, 86, 28, 115, 48, 210, 136]
         },
         {
-            name: 'Sessions',
+            name: '기존 회원',
             data: [0, 43, 14, 56, 24, 105, 68]
         }
     ]);

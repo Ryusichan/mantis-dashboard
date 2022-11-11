@@ -77,19 +77,19 @@ const DashboardDefault = () => {
         <Grid container rowSpacing={4.5} columnSpacing={2.75}>
             {/* row 1 */}
             <Grid item xs={12} sx={{ mb: -2.25 }}>
-                <Typography variant="h5">Dashboard</Typography>
+                <Typography variant="h5">관리자 페이지</Typography>
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <AnalyticEcommerce title="Total Page Views" count="4,42,236" percentage={59.3} extra="35,000" />
+                <AnalyticEcommerce title="전체 접속자" count="4,42,236" percentage={59.3} extra="35,000" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <AnalyticEcommerce title="Total Users" count="78,250" percentage={70.5} extra="8,900" />
+                <AnalyticEcommerce title="전체 이용자" count="78,250" percentage={70.5} extra="8,900" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <AnalyticEcommerce title="Total Order" count="18,800" percentage={27.4} isLoss color="warning" extra="1,943" />
+                <AnalyticEcommerce title="전체 주문량" count="18,800" percentage={27.4} isLoss color="warning" extra="1,943" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <AnalyticEcommerce title="Total Sales" count="$35,078" percentage={27.4} isLoss color="warning" extra="$20,395" />
+                <AnalyticEcommerce title="전체 판매량" count="$35,078" percentage={27.4} isLoss color="warning" extra="$20,395" />
             </Grid>
 
             <Grid item md={8} sx={{ display: { sm: 'none', md: 'block', lg: 'none' } }} />
@@ -98,7 +98,7 @@ const DashboardDefault = () => {
             <Grid item xs={12} md={7} lg={8}>
                 <Grid container alignItems="center" justifyContent="space-between">
                     <Grid item>
-                        <Typography variant="h5">Unique Visitor</Typography>
+                        <Typography variant="h5">방문자</Typography>
                     </Grid>
                     <Grid item>
                         <Stack direction="row" alignItems="center" spacing={0}>
@@ -130,7 +130,7 @@ const DashboardDefault = () => {
             <Grid item xs={12} md={5} lg={4}>
                 <Grid container alignItems="center" justifyContent="space-between">
                     <Grid item>
-                        <Typography variant="h5">Income Overview</Typography>
+                        <Typography variant="h5">소득</Typography>
                     </Grid>
                     <Grid item />
                 </Grid>
@@ -138,7 +138,7 @@ const DashboardDefault = () => {
                     <Box sx={{ p: 3, pb: 0 }}>
                         <Stack spacing={2}>
                             <Typography variant="h6" color="textSecondary">
-                                This Week Statistics
+                                주간 통계
                             </Typography>
                             <Typography variant="h3">$7,650</Typography>
                         </Stack>
@@ -151,7 +151,7 @@ const DashboardDefault = () => {
             <Grid item xs={12} md={7} lg={8}>
                 <Grid container alignItems="center" justifyContent="space-between">
                     <Grid item>
-                        <Typography variant="h5">Recent Orders</Typography>
+                        <Typography variant="h5">최근 주문수량</Typography>
                     </Grid>
                     <Grid item />
                 </Grid>
@@ -162,22 +162,22 @@ const DashboardDefault = () => {
             <Grid item xs={12} md={5} lg={4}>
                 <Grid container alignItems="center" justifyContent="space-between">
                     <Grid item>
-                        <Typography variant="h5">Analytics Report</Typography>
+                        <Typography variant="h5">분석 통계</Typography>
                     </Grid>
                     <Grid item />
                 </Grid>
                 <MainCard sx={{ mt: 2 }} content={false}>
                     <List sx={{ p: 0, '& .MuiListItemButton-root': { py: 2 } }}>
                         <ListItemButton divider>
-                            <ListItemText primary="Company Finance Growth" />
+                            <ListItemText primary="회사 성장률" />
                             <Typography variant="h5">+45.14%</Typography>
                         </ListItemButton>
                         <ListItemButton divider>
-                            <ListItemText primary="Company Expenses Ratio" />
+                            <ListItemText primary="회사 기회비용" />
                             <Typography variant="h5">0.58%</Typography>
                         </ListItemButton>
                         <ListItemButton>
-                            <ListItemText primary="Business Risk Cases" />
+                            <ListItemText primary="사업 위험도" />
                             <Typography variant="h5">Low</Typography>
                         </ListItemButton>
                     </List>
@@ -189,7 +189,7 @@ const DashboardDefault = () => {
             <Grid item xs={12} md={7} lg={8}>
                 <Grid container alignItems="center" justifyContent="space-between">
                     <Grid item>
-                        <Typography variant="h5">Sales Report</Typography>
+                        <Typography variant="h5">판매 통계</Typography>
                     </Grid>
                     <Grid item>
                         <TextField
@@ -211,7 +211,7 @@ const DashboardDefault = () => {
                 <MainCard sx={{ mt: 1.75 }}>
                     <Stack spacing={1.5} sx={{ mb: -12 }}>
                         <Typography variant="h6" color="secondary">
-                            Net Profit
+                            순이익
                         </Typography>
                         <Typography variant="h4">$1560</Typography>
                     </Stack>
@@ -221,7 +221,7 @@ const DashboardDefault = () => {
             <Grid item xs={12} md={5} lg={4}>
                 <Grid container alignItems="center" justifyContent="space-between">
                     <Grid item>
-                        <Typography variant="h5">Transaction History</Typography>
+                        <Typography variant="h5">History</Typography>
                     </Grid>
                     <Grid item />
                 </Grid>
@@ -318,10 +318,10 @@ const DashboardDefault = () => {
                             <Grid item>
                                 <Stack>
                                     <Typography variant="h5" noWrap>
-                                        Help & Support Chat
+                                        Help
                                     </Typography>
                                     <Typography variant="caption" color="secondary" noWrap>
-                                        Typical replay within 5 min
+                                        상담원 연결하기
                                     </Typography>
                                 </Stack>
                             </Grid>

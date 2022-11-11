@@ -61,32 +61,32 @@ const headCells = [
         id: 'trackingNo',
         align: 'left',
         disablePadding: false,
-        label: 'Tracking No.'
+        label: '일련번호.'
     },
     {
         id: 'name',
         align: 'left',
         disablePadding: true,
-        label: 'Product Name'
+        label: '제품명'
     },
     {
         id: 'fat',
         align: 'right',
         disablePadding: false,
-        label: 'Total Order'
+        label: '전체주문'
     },
     {
         id: 'carbs',
         align: 'left',
         disablePadding: false,
 
-        label: 'Status'
+        label: '상태'
     },
     {
         id: 'protein',
         align: 'right',
         disablePadding: false,
-        label: 'Total Amount'
+        label: '전체주문량'
     }
 ];
 
@@ -125,19 +125,19 @@ const OrderStatus = ({ status }) => {
     switch (status) {
         case 0:
             color = 'warning';
-            title = 'Pending';
+            title = '보류';
             break;
         case 1:
             color = 'success';
-            title = 'Approved';
+            title = '승인';
             break;
         case 2:
             color = 'error';
-            title = 'Rejected';
+            title = '거절';
             break;
         default:
             color = 'primary';
-            title = 'None';
+            title = '기타';
     }
 
     return (

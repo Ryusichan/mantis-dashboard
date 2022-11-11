@@ -115,7 +115,7 @@ const Notification = () => {
                         >
                             <ClickAwayListener onClickAway={handleClose}>
                                 <MainCard
-                                    title="Notification"
+                                    title="알림"
                                     elevation={0}
                                     border={false}
                                     content={false}
@@ -148,15 +148,7 @@ const Notification = () => {
                                                 </Avatar>
                                             </ListItemAvatar>
                                             <ListItemText
-                                                primary={
-                                                    <Typography variant="h6">
-                                                        It&apos;s{' '}
-                                                        <Typography component="span" variant="subtitle1">
-                                                            Cristina danny&apos;s
-                                                        </Typography>{' '}
-                                                        birthday today.
-                                                    </Typography>
-                                                }
+                                                primary={<Typography variant="h6">알림을 받았습니다</Typography>}
                                                 secondary="2 min ago"
                                             />
                                             <ListItemSecondaryAction>
@@ -178,14 +170,7 @@ const Notification = () => {
                                                 </Avatar>
                                             </ListItemAvatar>
                                             <ListItemText
-                                                primary={
-                                                    <Typography variant="h6">
-                                                        <Typography component="span" variant="subtitle1">
-                                                            Aida Burg
-                                                        </Typography>{' '}
-                                                        commented your post.
-                                                    </Typography>
-                                                }
+                                                primary={<Typography variant="h6">알림을 받았습니다</Typography>}
                                                 secondary="5 August"
                                             />
                                             <ListItemSecondaryAction>
@@ -207,14 +192,7 @@ const Notification = () => {
                                                 </Avatar>
                                             </ListItemAvatar>
                                             <ListItemText
-                                                primary={
-                                                    <Typography variant="h6">
-                                                        Your Profile is Complete &nbsp;
-                                                        <Typography component="span" variant="subtitle1">
-                                                            60%
-                                                        </Typography>{' '}
-                                                    </Typography>
-                                                }
+                                                primary={<Typography variant="h6">알림을 받았습니다</Typography>}
                                                 secondary="7 hours ago"
                                             />
                                             <ListItemSecondaryAction>
@@ -236,17 +214,7 @@ const Notification = () => {
                                                 </Avatar>
                                             </ListItemAvatar>
                                             <ListItemText
-                                                primary={
-                                                    <Typography variant="h6">
-                                                        <Typography component="span" variant="subtitle1">
-                                                            Cristina Danny
-                                                        </Typography>{' '}
-                                                        invited to join{' '}
-                                                        <Typography component="span" variant="subtitle1">
-                                                            Meeting.
-                                                        </Typography>
-                                                    </Typography>
-                                                }
+                                                primary={<Typography variant="h6">알림을 받았습니다</Typography>}
                                                 secondary="Daily scrum meeting time"
                                             />
                                             <ListItemSecondaryAction>
