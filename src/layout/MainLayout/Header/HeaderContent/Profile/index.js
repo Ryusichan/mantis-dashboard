@@ -26,7 +26,7 @@ import ProfileTab from './ProfileTab';
 import SettingTab from './SettingTab';
 
 // assets
-import avatar1 from 'assets/images/users/avatar-1.png';
+import avatar1 from 'assets/images/users/avatar-2.png';
 import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
 
 // tab panel wrapper
@@ -143,7 +143,7 @@ const Profile = () => {
                                                         <Stack>
                                                             <Typography variant="h6">관리자</Typography>
                                                             <Typography variant="body2" color="textSecondary">
-                                                                UI/UX Designer
+                                                                매니저
                                                             </Typography>
                                                         </Stack>
                                                     </Stack>

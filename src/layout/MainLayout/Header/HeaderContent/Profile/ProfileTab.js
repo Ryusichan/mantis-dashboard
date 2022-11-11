@@ -24,26 +24,26 @@ const ProfileTab = ({ handleLogout }) => {
                 <ListItemIcon>
                     <EditOutlined />
                 </ListItemIcon>
-                <ListItemText primary="Edit Profile" />
+                <ListItemText primary="수정하기" />
             </ListItemButton>
             <ListItemButton selected={selectedIndex === 1} onClick={(event) => handleListItemClick(event, 1)}>
                 <ListItemIcon>
                     <UserOutlined />
                 </ListItemIcon>
-                <ListItemText primary="View Profile" />
+                <ListItemText primary="Profile" />
             </ListItemButton>
 
             <ListItemButton selected={selectedIndex === 3} onClick={(event) => handleListItemClick(event, 3)}>
                 <ListItemIcon>
                     <ProfileOutlined />
                 </ListItemIcon>
-                <ListItemText primary="Social Profile" />
+                <ListItemText primary="최근기록" />
             </ListItemButton>
             <ListItemButton selected={selectedIndex === 4} onClick={(event) => handleListItemClick(event, 4)}>
                 <ListItemIcon>
                     <WalletOutlined />
                 </ListItemIcon>
-                <ListItemText primary="Billing" />
+                <ListItemText primary="통계보기" />
             </ListItemButton>
             <ListItemButton selected={selectedIndex === 2} onClick={handleLogout}>
                 <ListItemIcon>
